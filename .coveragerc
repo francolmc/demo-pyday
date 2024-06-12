@@ -1,0 +1,14 @@
+[run]
+branch = True
+source = application
+
+[report]
+# Umbral mínimo de cobertura que debe alcanzarse
+fail_under = 80
+show_missing = True
+
+[html]
+directory = coverage_html_report
+
+[xml]
+output = coverage.xml
