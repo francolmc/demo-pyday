@@ -1,4 +1,7 @@
 import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class Config:
     SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_CONNECTION_STRING")
@@ -6,4 +9,4 @@ class Config:
 
 class TestingConfig(Config):
     TESTING = True
-    SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_TEST_CONNECTION_STRING", "sqlite:///:memory:")
+    SQLALCHEMY_DATABASE_URI = os.getenv("DATABASE_TEST_CONNECTION_STRING")
