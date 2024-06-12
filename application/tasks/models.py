@@ -7,7 +7,7 @@ class Task(db.Model):
     completed = db.Column(db.Boolean, default=False)
 
     def complete(self):
-        self.completed = False
+        self.completed = True
 
     def is_completed(self):
         return self.completed

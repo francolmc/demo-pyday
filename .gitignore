@@ -2,3 +2,4 @@ env
 .env
 .flaskenv
 __pycache__
+htmlcov
