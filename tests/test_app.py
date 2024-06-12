@@ -26,3 +26,9 @@ def test_complete_task(test_client):
     assert response.status_code == 200
     data = response.get_json()
     assert data["task"]["completed"]
+
+def test_complete_taks_not_exist(test_client):
+    response = test_client.post("/api/tasks/9999/complete")
+    assert response.status_code == 404
+    data = response.get_json()
+    assert data["error"] == "Task not found"
