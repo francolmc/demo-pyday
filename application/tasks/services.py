@@ -26,7 +26,7 @@ def create_task(data):
     }, 201
 
 def complete_task(task_id):
-    task = Task.query.get(task_id)
+    task = db.session.get(Task, task_id)
     if task:
         task.complete()
         db.session.commit()
