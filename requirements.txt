@@ -1,5 +1,4 @@
 Flask
-psycopg2
 Flask-SQLAlchemy
 python-dotenv
 flask-migrate
@@ -7,3 +6,4 @@ gunicorn
 pytest
 mutmut
 coverage
+sqlalchemy-libsql
