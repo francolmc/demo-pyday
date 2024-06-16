@@ -15,6 +15,7 @@ Este proyecto es una demostración de cómo implementar tests unitarios y su int
 
 ## Estructura del proyecto
 
+```plaintext
 demo-pyday/
 ├── .github/
 │ └── workflows/
@@ -41,7 +42,7 @@ demo-pyday/
 ├── requirements.txt
 ├── run.py
 └── setup.cfg
-
+```
 
 ## Configuración
 
