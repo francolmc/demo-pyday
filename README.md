@@ -13,39 +13,6 @@ Este proyecto es una demostración de cómo implementar tests unitarios y su int
 - **coverage.py**: Herramienta para medir la cobertura de código.
 - **mutmut**: Herramienta para pruebas de mutaciones.
 
-## Estructura del proyecto
-
-```plaintext
-demo-pyday/
-├── .github/
-│ └── workflows/
-│ └── main.yml
-├── application/
-│ ├── tasks/
-│ │ ├── init.py
-│ │ ├── config.py
-│ │ └── extensions.py
-├── instance/
-├── migrations/
-│ ├── alembic.ini
-│ ├── env.py
-│ ├── script.py.mako
-│ └── versions/
-├── tests/
-│ ├── init.py
-│ └── test_app.py
-├── .coveragerc
-├── .env
-├── .flaskenv
-├── README.md
-├── pytest.ini
-├── requirements.txt
-├── run.py
-└── setup.cfg
-```
-
-Claro, aquí tienes una explicación detallada de la estructura del proyecto:
-
 ### Estructura del Proyecto
 
 ```plaintext
